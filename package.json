@@ -1,0 +1,30 @@
+{
+	"name": "tailwind-inspector",
+	"version": "1.0.0",
+	"main": "content.js",
+	"type": "module",
+	"scripts": {
+		"dev": "vite build --watch",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@eslint/js": "^9.25.0",
+		"@types/chrome": "^0.0.315",
+		"@vitejs/plugin-react": "^4.4.1",
+		"eslint": "^9.25.0",
+		"globals": "^16.0.0",
+		"typescript": "^5.8.3",
+		"vite": "^6.3.2"
+	},
+	"dependencies": {
+		"@tailwindcss/vite": "^4.1.4",
+		"clsx": "^2.1.1",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0",
+		"tailwindcss": "^4.1.4"
+	}
+}

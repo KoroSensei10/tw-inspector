@@ -1,0 +1,26 @@
+{
+	"manifest_version": 3,
+	"name": "Tailwind Inspector",
+	"version": "0.1",
+	"description": "Inspecte et modifie les classes Tailwind sur une page.",
+	"permissions": [
+		"scripting",
+		"activeTab"
+	],
+	"action": {
+		"default_title": "Tailwind Inspector"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"content.js"
+			]
+		}
+	],
+	"host_permissions": [
+		"<all_urls>"
+	]
+}
